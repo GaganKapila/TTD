@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="mystyle.css"?>
+
+<bookstore> // Root
+ <book>
+ <title>Poèmes Français</title>
+ <author>Réjean Thomas</author>
+ <year>2006</year>
+ <price>14.99</price>
+ <publication>france publications</publication>
+ <copiessold>50,000</copiessold>
+ <releasedate> 20 jan 2006 </releasedate>
+ </book>
+<book>
+ <title>Harry Potter</title>
+ <author>J K. Rowling</author>
+ <year>2001</year>
+ <price>29.99</price>
+ <publication>Bloomsbury publications</publication>
+ <copiessold>500,000</copiessold>
+ <releasedate>November 16, 2001 </releasedate>
+</book>
+<book>
+ <title>Le petit prince</title>
+ <author>Antoine de Saint-Exupéry</author>
+ <year>1943</year>
+ <price>19.99</price>
+ <publication>quebec publications</publication>
+ <copiessold>25,000</copiessold>
+ <releasedate>june 16, 1943 </releasedate>
+</book>
+ <book>
+ <title>Learning XML</title>
+ <author>Erik T. Ray</author>
+ <year>2003</year>
+ <price>39.95</price>
+ <publication>swan publications</publication>
+ <copiessold>22,000</copiessold>
+ <releasedate>october 30, 2003 </releasedate>
+ </book>
+ <book>
+ <title>L'avalée des avalés</title>
+ <author>Réjean Ducharme</author>
+ <year>1966</year>
+ <price>39.95</price>
+ <publication>unique publications</publication>
+ <copiessold>95,000</copiessold>
+ <releasedate>febuaray 5, 1966 </releasedate>
+ </book>
+ <book>
+ <title>Les fleurs du mal</title>
+ <author>Charles Baudelaire</author>
+ <year>1957</year>
+ <price>49.95</price>
+ <publication>brothers publications</publication>
+ <copiessold>100,000</copiessold>
+ <releasedate>august 23, 1957 </releasedate>
+ </book>
+</bookstore>

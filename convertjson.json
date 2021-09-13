@@ -1,0 +1,61 @@
+{
+   "bookstore": {
+      "book": [
+         {
+            "title": "Poèmes Français",
+            "author": "Réjean Thomas",
+            "year": "2006",
+            "price": "14.99",
+            "publication": "france publications",
+            "copiessold": "50,000",
+            "releasedate": "20 jan 2006"
+         },
+         {
+            "title": "Harry Potter",
+            "author": "J K. Rowling",
+            "year": "2001",
+            "price": "29.99",
+            "publication": "Bloomsbury publications",
+            "copiessold": "500,000",
+            "releasedate": "November 16, 2001"
+         },
+         {
+            "title": "Le petit prince",
+            "author": "Antoine de Saint-Exupéry",
+            "year": "1943",
+            "price": "19.99",
+            "publication": "quebec publications",
+            "copiessold": "25,000",
+            "releasedate": "june 16, 1943"
+         },
+         {
+            "title": "Learning XML",
+            "author": "Erik T. Ray",
+            "year": "2003",
+            "price": "39.95",
+            "publication": "swan publications",
+            "copiessold": "22,000",
+            "releasedate": "october 30, 2003"
+         },
+         {
+            "title": "L'avalée des avalés",
+            "author": "Réjean Ducharme",
+            "year": "1966",
+            "price": "39.95",
+            "publication": "unique publications",
+            "copiessold": "95,000",
+            "releasedate": "febuaray 5, 1966"
+         },
+         {
+            "title": "Les fleurs du mal",
+            "author": "Charles Baudelaire",
+            "year": "1957",
+            "price": "49.95",
+            "publication": "brothers publications",
+            "copiessold": "100,000",
+            "releasedate": "august 23, 1957"
+         }
+      ],
+      "__text": "// Root"
+   }
+}
