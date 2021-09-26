@@ -1,0 +1,26 @@
+<div id="weatherapi-weather-widget-3"></div><script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=315820&wid=3&tu=1&div=weatherapi-weather-widget-3' async></script><noscript><a href="https://www.weatherapi.com/weather/q/montreal-quebec-canada-315820" alt="Hour by hour Montreal, Quebec, Canada weather">10 day hour by hour Montreal, Quebec, Canada weather</a></noscript>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get Visitor's Location Using HTML5 Geolocation</title>
+<script>
+    function showPosition() {
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+            });
+        } else {
+            alert("Sorry, your browser does not support HTML5 geolocation.");
+        }
+    }
+</script>
+</head>
+<body>
+    <div id="result">
+        <!--Position information will be inserted here-->
+    </div>
+    <button type="button" onclick="showPosition();">Show Position</button>
+</body>
+</html>
